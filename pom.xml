@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>org.code_demo.spring_io</groupId>
+	<artifactId>data_spring</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<name>data_spring multi modules</name>
+	<description>Data processing with spring.io multiple modules</description>
+	
+	<modules>
+		
+		<module>data_batch</module>
+		<module>com_service</module>
+	</modules>
+</project>
